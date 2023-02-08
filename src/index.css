@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar{
+  width: 100%;
+  background-color: rgb(233, 231, 108);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.navbar a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  color: red;
+}
+.pokemonCard{
+  display: flex;
+  border: 1px solid red;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 50px ;
+
+}
